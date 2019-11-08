@@ -1,1 +1,1 @@
-export { IMapper } from './interfaces';
+export { IGetAllByParams, IMapper } from './interfaces';
