@@ -1,0 +1,24 @@
+{
+  "name": "@qest/repository-utils",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [],
+  "author": "QEST",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qest-cz/repository-utils"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "json-to-pretty-yaml": "^1.2.2"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.3",
+    "typescript": "^3.4.5"
+  }
+}
