@@ -6,7 +6,7 @@ export interface IGetAllByParams<T> {
     orderDesc?: boolean;
 }
 
-export interface IMapper<T> {
+export interface IRepository<T> {
     getAllByParams(args: IGetAllByParams<T>): Promise<T[]>;
     getById(id: any): Promise<T>;
     getByParams(t: Partial<T>): Promise<T>;
