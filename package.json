@@ -1,6 +1,6 @@
 {
   "name": "@qest/repository-utils",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "",
   "scripts": {
     "build": "rimraf dist && tsc"
